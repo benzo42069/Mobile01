@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00000000000000000000000000000000, type: 3}
+  m_Name: DifficultyTable
+  m_EditorClassIdentifier: 
+  thresholds:
+  - hitsRequired: 0
+    ringSpeed: 1.5
+    bandWidth: 0.3
+    maxRings: 1
+    spawnInterval: 1.8
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 5
+    ringSpeed: 1.7
+    bandWidth: 0.3
+    maxRings: 1
+    spawnInterval: 1.6
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 10
+    ringSpeed: 1.9
+    bandWidth: 0.28
+    maxRings: 2
+    spawnInterval: 1.5
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 15
+    ringSpeed: 2.1
+    bandWidth: 0.28
+    maxRings: 2
+    spawnInterval: 1.4
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 20
+    ringSpeed: 2.3
+    bandWidth: 0.26
+    maxRings: 2
+    spawnInterval: 1.3
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 25
+    ringSpeed: 2.6
+    bandWidth: 0.25
+    maxRings: 2
+    spawnInterval: 1.2
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 30
+    ringSpeed: 2.9
+    bandWidth: 0.23
+    maxRings: 3
+    spawnInterval: 1.1
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 40
+    ringSpeed: 3.2
+    bandWidth: 0.22
+    maxRings: 3
+    spawnInterval: 1.0
+    ghostsEnabled: 0
+    bandRotates: 0
+  - hitsRequired: 50
+    ringSpeed: 3.6
+    bandWidth: 0.2
+    maxRings: 3
+    spawnInterval: 0.9
+    ghostsEnabled: 1
+    bandRotates: 0
+  - hitsRequired: 60
+    ringSpeed: 4.0
+    bandWidth: 0.18
+    maxRings: 4
+    spawnInterval: 0.85
+    ghostsEnabled: 1
+    bandRotates: 0
+  - hitsRequired: 75
+    ringSpeed: 4.5
+    bandWidth: 0.16
+    maxRings: 4
+    spawnInterval: 0.8
+    ghostsEnabled: 1
+    bandRotates: 0
+  - hitsRequired: 90
+    ringSpeed: 5.0
+    bandWidth: 0.14
+    maxRings: 4
+    spawnInterval: 0.75
+    ghostsEnabled: 1
+    bandRotates: 0
+  - hitsRequired: 100
+    ringSpeed: 5.5
+    bandWidth: 0.12
+    maxRings: 4
+    spawnInterval: 0.7
+    ghostsEnabled: 1
+    bandRotates: 0
+  - hitsRequired: 120
+    ringSpeed: 6.0
+    bandWidth: 0.1
+    maxRings: 4
+    spawnInterval: 0.65
+    ghostsEnabled: 1
+    bandRotates: 0
